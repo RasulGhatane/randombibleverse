@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Bible Verse</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baskerville:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Random Bible Verse</h1>
+        </div>
+        <div class="content">
+            <p>Welcome! Click the button below to fetch a new Bible verse. Enjoy the Lord's words!</p>
+            <div id="newQuote" class="verse"></div>
+            <button id="fetchVerseButton" class="btn">New Verse</button>
+            <div id="spinner" class="spinner">
+                <img src="https://i.sstatic.net/ATB3o.gif" alt="Loading..."/>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script type="text/javascript" defer="defer" src="https://labs.bible.org/api/NETBibleTagger/v2/netbibletagger.js"></script>
+</body>
+</html>

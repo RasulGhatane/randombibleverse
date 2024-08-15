@@ -1,0 +1,90 @@
+/* Reset some default styles */
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background and typography */
+body {
+    font-family: 'Playfair Display', serif; /* Transitional serif font */
+    background: url('https://www.elorahomehardware.ca/cdn/shop/products/D7E5EB_600x600_crop_center.png?v=1608047828') no-repeat center center fixed; /* Ghibli-inspired background */
+    background-size: cover;
+    color: #3b3b3b; /* Dark grey for general text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+/* Container styling */
+.container {
+    background: rgba(255, 255, 255, 0.8); /* Slightly translucent white background */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    position: relative; /* To enable positioning of any decorative elements */
+}
+
+/* Header styling */
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ff6f61; /* Coral color for a warm touch */
+    font-family: 'Playfair Display', serif; /* Elegant serif font */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Soft shadow for text */
+}
+
+/* Content styling */
+.content p {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    line-height: 1.6; /* Increase line-height for readability */
+}
+
+/* Verse styling */
+.verse {
+    font-size: 1.6em;
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(255, 248, 220, 0.9); /* Light creamy background */
+    border: 2px solid #ff6f61; /* Coral border */
+    border-radius: 12px;
+    color: #3a3a3a; /* Slightly darker grey for text */
+    font-style: italic; /* Italicize text for emphasis */
+}
+
+/* Button styling */
+.btn {
+    background-color: #ffab91; /* Soft peach color */
+    color: #3b3b3b;
+    border: 2px solid #ff6f61; /* Coral border for buttons */
+    padding: 12px 24px;
+    border-radius: 15px;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    background-color: #ff6f61; /* Coral color on hover */
+    color: white;
+    border-color: #ff6f61; /* Match border color on hover */
+}
+
+/* Spinner styling */
+.spinner {
+    display: none;
+    margin-top: 20px;
+}
+
+.spinner img {
+    width: 60px;
+    height: 60px;
+}
+
